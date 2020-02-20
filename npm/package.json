@@ -1,10 +1,9 @@
 {
-  "name": "npm",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@joeretz/npm",
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node test.js",
     "start": "how-to-npm",
     "verify": "how-to-npm verify"
   },
@@ -12,6 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@linclark/pkg": "^1.0.2",
     "how-to-npm": "^2.5.1"
-  }
+  },
+  "devDependencies": {},
+  "description": "",
+  "repository": {}
 }
